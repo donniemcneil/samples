@@ -29,7 +29,7 @@ else
 fi
 
 datePath="${year}-${month}-${day}";
-echo "Tallying Progressive treatment count for" $datePath
+echo "Tallying <redacted> treatment count for" $datePath
 
 rm -f $BOX*
 for BOX in $(cat /home/userx/result/host_list.txt); 
